@@ -44,10 +44,12 @@ header div a {
 }
 .wrapper {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-flow: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
     padding-top: 70px;
+    width: 100%;
+    margin: 0 auto;
 }
 .mission {
     display: flex;
@@ -123,14 +125,13 @@ div.tea_type {
     margin: 10px auto;
 }
 .locations {
-    overflow: hidden;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     min-height: 570px;
     width: 1200px;
     background-image: url(../img/img-locations-background.jpg);
-    background-size: 100% auto;
+    background-size: auto;
     margin-top: 70px;
 }
 .location_text {
@@ -156,7 +157,7 @@ div.adress {
     margin: 15px 20px;
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
+    justify-content: space-around;
 }
 .adress div {
     width: 100%;
