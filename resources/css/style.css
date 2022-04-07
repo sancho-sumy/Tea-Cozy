@@ -1,0 +1,176 @@
+html,
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+}
+div.text {
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+}
+header {
+    display: flex;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 10;
+    background-color: black;
+}
+header div {
+    height: 50px;
+    margin: auto;
+    padding: auto;
+}
+header div.left {
+    margin-left: 10px;
+}
+header div.right {
+    width: 350px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header div img{
+    height: 50px;
+}
+header div a {
+    color: seashell;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: column;
+    padding-top: 70px;
+}
+.mission {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+    background-image: url(../img/img-mission-background.jpg);
+}
+#mission div.text{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: black;
+    width: 100%;
+}
+.text div{
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+}
+
+h2,
+h4 {
+    margin: 7px;
+}
+.featured_tea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+    margin-top: 70px;
+}
+#featured_tea div.text{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#featured_tea div.tea_of_month{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+div.tea_type {
+    margin: 0 10px;
+}
+.tea_img {
+    overflow: hidden;
+    height: 200px;
+    width: 300px;
+    background-size: 100% auto;
+}
+.img1 {
+    background-image: url(../img/img-berryblitz.jpg);
+}
+.img2 {
+    background-image: url(../img/img-spiced-rum.jpg);
+}
+.img3 {
+    background-image: url(../img/img-donut.jpg);
+}
+.img4 {
+    background-image: url(../img/img-myrtle-ave.jpg);
+}
+.img5 {
+    background-image: url(../img/img-bedford-bizarre.jpg);
+}
+.tea_name {
+    text-align: center;
+    margin: 10px auto;
+}
+.locations {
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 570px;
+    width: 1200px;
+    background-image: url(../img/img-locations-background.jpg);
+    background-size: 100% auto;
+    margin-top: 70px;
+}
+.location_text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+}
+.location_text h2 {
+    margin: 0;
+}
+.location_list {
+    display: flex;
+    justify-items: center;
+}
+div.adress {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.adress div {
+    width: 100%;
+    text-align: center;
+}
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+}
+footer {
+    height: 200px;
+    text-align: left;
+    padding: 20px;
+}
