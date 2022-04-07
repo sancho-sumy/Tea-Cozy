@@ -170,7 +170,6 @@ div.adress {
     width: 100%;
 }
 footer {
-    height: 200px;
     text-align: left;
-    padding: 20px;
+    padding: 0 20px;
 }
