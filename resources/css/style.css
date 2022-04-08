@@ -58,6 +58,7 @@ header div a {
     height: 700px;
     width: 1200px;
     background-image: url(../img/img-mission-background.jpg);
+    background-position-x: center;
 }
 #mission div.text{
     display: flex;
@@ -131,6 +132,7 @@ div.tea_type {
     min-height: 570px;
     width: 1200px;
     background-image: url(../img/img-locations-background.jpg);
+    background-position-x: center;
     margin-top: 70px;
 }
 .location_text {
