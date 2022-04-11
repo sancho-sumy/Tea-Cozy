@@ -133,6 +133,8 @@ div.tea_type {
     width: 1200px;
     background-image: url(../img/img-locations-background.jpg);
     background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 70px;
 }
 .location_text {
